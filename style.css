@@ -4,6 +4,8 @@ body{
     justify-content: center;
     height: 100vh;
     align-items: center;
+    transition: .4s;
+
 }
 
 .input{
@@ -30,7 +32,7 @@ body{
     animation: toggelOff 0.4s linear forwards;
 }
 .input:checked + .lable{
-    background-color: salmon;
+    background-color: black;
 }
 
 .input:checked + .lable .circle{
